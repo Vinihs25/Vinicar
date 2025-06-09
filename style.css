@@ -213,8 +213,8 @@ section {
 }
 
 .conteiner .box img {
-    height: 18rem; /*Define a altura da imagem*/
-    border-radius: 100%; /*Tornar a imagem circular*/
+    height: 19rem; /*Define a altura da imagem*/
+    border-radius: 15%; /*Tornar a imagem circular*/
 }
 
 .conteiner .box h2{
