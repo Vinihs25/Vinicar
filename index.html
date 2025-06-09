@@ -1,16 +1,405 @@
 <!DOCTYPE html>
-<html lang="en">
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ViniCar</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/95cc33972b.js" crossorigin="anonymous"></script>
-    </head>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINICAR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/95cc33972b.js" crossorigin="anonymous"></script>
+</head>
+
 <body>
-    
+    <!--Header-->
+
+    <header>
+        <div>
+            <a href="" class="logo">
+                <img src="images/logo.png" alt="Imagem logo 
+            Vinicar">
+            </a>
+        </div>
+
+        <div>
+            <nav>
+                <ul class="ul-header">
+                    <li>
+                        <a href="">HOME</a>
+                    </li>
+                    <li>
+                        <a href="">SOBRE</a>
+                    </li>
+                    <li>
+                        <a href="">MENU</a>
+                    </li>
+                    <li>
+                        <a href="">ESTOQUE</a>
+                    </li>
+                    <li>
+                        <a href="">CLIENTES</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-car"></i>
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home">
+
+            <div class="content">
+                <h3>Bem Vindos á ViniCar Veículos</h3>
+
+                <p>Desde 1999, a ViniCar Veículos é referência em qualidade, confiança e atendimento no mercado automotivo. Com mais de duas décadas de experiência, oferecemos uma seleção criteriosa de veículos novos seminovos. Aqui, cada cliente é atendido com transparência e dedicação.</p>
+
+                <a href="#" class="btn">Fale Com Um Vendedor</a>
+            </div>
+
+        </section>
+
+        <section id="about" class="about">
+            <h1 class="heading">
+                Sobre <span>Nós</span>
+
+            </h1>
+
+            <!-- div adicionada -->
+            <div class="row">
+                <div class="image">
+                    <img src="images/sobre.jpg" alt="Imagem pizzaria">
+                </div>
+                <div class="content">
+                    <h3>Oque torna a PizzariaHash única</h3>
+
+                    <p>Descubra o sabor autêntico das nossas pizzas artesanais, preparadas com ingredientes frescos e de
+                        alta qualidade.</p>
+
+                    <p>Descubra o sabor autêntico das nossas pizzas artesanais, preparadas com ingredientes frescos e de
+                        alta qualidade.</p>
+
+                    <a href="#" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+
+        </section>
+<!---------------------------------------------------------------->
+        <section class="menu" id="menu">
+
+            <h2 class="heading">Nosso <span>Menu</span></h2>
+
+            <!--Caixa para guardar as imagens da pizza-->
+
+            <div class="conteiner">
+
+                <div class="box">
+                    <img src="images/pizza_item_1.jpg" alt="imagem1">
+                    <h3>Explosão de Pepperoni</h3>
+                    <div class="price"> 55.99$ <span>60.98$</span></div>
+                    <a href="#" class="btn">Adicionar ao Carrinho</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/pizza_item_2.jpg" alt="imagem2">
+                    <h3>Aventura Vegetais</h3>
+                    <div class="price"> 45.99$ <span>60.98$</span></div>
+                    <a href="#" class="btn">Adicionar ao Carrinho</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/pizza_item_3.jpg" alt="imagem3">
+                    <h3>EMediterrânea Delícia</h3>
+                    <div class="price"> 75.99$ <span>80.98$</span></div>
+                    <a href="#" class="btn">Adicionar ao Carrinho</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/pizza_item_4.jpg" alt="imagem4">
+                    <h3>Pomodoro Do Campo</h3>
+                    <div class="price"> 55.99$ <span>60.98$</span></div>
+                    <a href="#" class="btn">Adicionar ao Carrinho</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/pizza_item_5.jpg" alt="imagem5">
+                    <h3>Lusitana Colorida</h3>
+                    <div class="price"> 55.99$ <span>60.98$</span></div>
+                    <a href="#" class="btn">Adicionar ao Carrinho</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/pizza_item_6.jpg" alt="imagem6">
+                    <h3>Saborosa Lava</h3>
+                    <div class="price"> 85.99$ <span>99.99$</span></div>
+                    <a href="#" class="btn">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!---------------------------------------------------------------->
+
+        <section id="products" class="products">
+            <h2 class="heading">Combos e <span>Promoções</span></h2>
+
+            <!--div pai-->
+
+            <div class="box-conteiner">
+                <!--Caixa 01-->
+
+                <div class="box">
+
+                    <!--caixa icons-->
+
+                    <div class="icons">
+                        <a href="#menu">
+                            <i class="fa-solid fa-car"></i>
+                        </a>
+                        <a href="#menu">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                        <a href="#menu">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/promo_1.jpg" alt="pizza com coca-cola">
+                    </div>
+
+                    <div class="content">
+                        <h3>Pizza+Refrigerante 2L</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="price">60.00$ <span>a partir</span></div>
+                    </div>
+
+                </div>
+
+                <!--Caixa 02-->
+
+                <div class="box">
+
+                    <!--caixa icons-->
+
+                    <div class="icons">
+                        <a href="#menu">
+                            <i class="fa-solid fa-car"></i>
+                        </a>
+                        <a href="#menu">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                        <a href="#menu">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/promo_2.jpg" alt="pepsi">
+                    </div>
+
+                    <div class="content">
+                        <h3>Pizza+Refrigerante 350ML</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">50.00$ <span>a partir</span></div>
+                    </div>
+
+                </div>
+
+                <!--Caixa 03-->
+
+                <div class="box">
+
+                    <!--caixa icons-->
+
+                    <div class="icons">
+                        <a href="#menu">
+                            <i class="fa-solid fa-car"></i>
+                        </a>
+                        <a href="#menu">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                        <a href="#menu">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/promo_3.jpg" alt="pepsi">
+                    </div>
+
+                    <div class="content">
+                        <h3>Pizza+Refrigerante 600ML</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="price">55.00$ <span>a partir</span></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+<!---------------------------------------------------------------->
+
+        <section id="review" class="review">
+            <h2 class="heading">O que nossos <span>Clientes Dizem</span></h2>
+
+            <!--DIV PAI-->
+            <div class="box-conteiner">
+                <!--cliente 1-->
+                <div class="box">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod quos sed, dolore in
+                        voluptatum culpa, fugiat nihil praesentium unde harum reprehenderit pariatur temporibus natus
+                        rerum non quas quae deleniti?</p>
+
+                    <img src="images/cliente_1.jpg" alt="cliente1" class="user">
+
+                    <h3>PADRE ROSALVINO</h3>
+
+                    <div class="stars">
+
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                </div>
+
+                <!--cliente 2 -->
+
+                <div class="box">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod quos sed, dolore in
+                        voluptatum culpa, fugiat nihil praesentium unde harum reprehenderit pariatur temporibus natus
+                        rerum non quas quae deleniti?</p>
+
+                    <img src="images/cliente_2.jpg" alt="cliente2" class="user">
+
+                    <h3>IGOR ARAUJO</h3>
+
+                    <div class="stars">
+
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                </div>
+
+                <!--cliente 3 -->
+
+                <div class="box">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod quos sed, dolore in
+                        voluptatum culpa, fugiat nihil praesentium unde harum reprehenderit pariatur temporibus natus
+                        rerum non quas quae deleniti?</p>
+
+                    <img src="images/cliente_3.jpg" alt="cliente3" class="user">
+
+                    <h3>VINICIUS HENRIQUE</h3>
+
+                    <div class="stars">
+
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+<!---------------------------------------------------------------->
+
+    <footer>
+        <div class="conteiner">
+
+            <div class="content-1">
+                <h4 class="title-footer">Vini <span>Car</span></h4>
+
+                <ul>
+                    <li>
+                        <a href="#">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#">Politica privacidade</a>
+                    </li>
+                    <li>
+                        <a href="#">Termos de serviço</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content-1">
+                <h4 class="title-footer">
+                    OBTENHA <span>AJUDA</span>
+                </h4>
+                <ul>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Financimento</a>
+                    </li>
+                    <li>
+                        <a href="#">Bancos Parceiros</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content-1">
+                <h4 class="title-footer">
+                    Siga <span>-nos</span>
+                </h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VINICAR. Todos Direitos Reservado</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
