@@ -351,9 +351,9 @@ section {
 }
 
 .user{
-    height: 10rem; /*define altura da imagem do usuário*/
-    width: 10rem; /*Largura da img*/
-    border-radius: 50%;
+    height: 12rem; /*define altura da imagem do usuário*/
+    width: 17rem; /*Largura da img*/
+    border-radius: 5%;
     object-fit: cover; /*ajusta a imagem para preencher o espaço disponivel/conteiner sem distorçao*/
 }
 
