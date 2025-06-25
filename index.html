@@ -9,6 +9,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
     <script src="https://kit.fontawesome.com/95cc33972b.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
      <link rel="stylesheet" href="style.css">
 </head>
@@ -40,6 +41,7 @@
                         <a href="">CLIENTES</a>
                     </li>
                 </ul>
+                
             </nav>
         </div>
 
@@ -53,7 +55,7 @@
 
     <main>
 
-        <section id="home">
+        <section class="top" id="home">
 
             <div class="content">
                 <h3>Bem Vindos á ViniCar Veículos</h3>
@@ -469,40 +471,9 @@
     </footer>
 
     
-<!--javascript do carrosel-->
 
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-
-
-</script>
     
-
+<script src="script.js"></script>
 </body>
 
 </html>
