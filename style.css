@@ -31,6 +31,10 @@ body{
     background: var(--bg);
 }
 
+#menu-btn {
+    display: none;
+}
+
 header{
     background: var(--bg);
     display: flex;
@@ -455,18 +459,29 @@ footer .conteiner {
 }
 
 @media (max-width: 768px) {
-    .hamburguer {
-        display: flex;
-        background: none;
-        border: none;
-        font-size: 24px;
-        cursor: pointer;
-    }
-    
-    .ul-header{
+.ul-header {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: var(--bg-card);
+        flex-direction: column;
+        width: 100%;
         display: none;
+        border-top: var(--border);
+        z-index: 998;
     }
 
+    .ul-header.show {
+        display: flex;
+    }
+
+    .icons {
+        z-index: 999;
+    }
+
+    #menu-btn {
+        display: block;
+    }
 }
 
 
